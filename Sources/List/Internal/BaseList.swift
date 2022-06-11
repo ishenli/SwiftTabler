@@ -44,7 +44,7 @@ struct BaseList<Element, Header, Footer, Rows>: View
                 buildHeader()
                 rows()
                 buildFooter()
-            }
+            }.listStyle(PlainListStyle())
         }
         .padding(config.tablePadding)
     }
